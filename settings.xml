@@ -18,8 +18,8 @@
 				<gpg.defaultKeyring>false</gpg.defaultKeyring>
 				<gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
 				<gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
-				<gpg.publicKeyring>${user.home}/pubring.gpg</gpg.publicKeyring>
-				<gpg.secretKeyring>${user.home}/secring.gpg</gpg.secretKeyring>
+				<gpg.publicKeyring>${user.home}/codegeny-keys-master/pubring.gpg</gpg.publicKeyring>
+				<gpg.secretKeyring>${user.home}/codegeny-keys-master/secring.gpg</gpg.secretKeyring>
 			</properties>
 		</profile>
 	</profiles>
